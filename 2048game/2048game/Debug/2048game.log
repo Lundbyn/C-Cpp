@@ -1,3 +1,3 @@
-﻿  pch.cpp
-  2048game.cpp
-  2048game.vcxproj -> C:\Users\Monke\source\repos\2048game\Debug\2048game.exe
+﻿  2048game.cpp
+c:\users\monke\documents\github\c-cpp\2048game\2048game\2048game.cpp(153): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  2048game.vcxproj -> C:\Users\Monke\Documents\GitHub\C-Cpp\2048game\Debug\2048game.exe
