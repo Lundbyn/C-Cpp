@@ -26,7 +26,8 @@ bool aCharacter(char move) {
 	case 'a': return true;
 	case 's': return true;
 	case 'd': return true;
-	case 'x': return true;
+	case 'x': cout << "Game over!\n";
+		return true;
 
 	default: return false;
 		break;
@@ -138,7 +139,7 @@ void moveboard(int board[4][4], char move) {
 					}
 					if (board[slide - 1][j] == board[slide][j]) {
 						board[slide][j] *= 2;
-						board[slide + 1][j] = 0;
+						board[slide - 1][j] = 0;
 					}
 				}
 			}
