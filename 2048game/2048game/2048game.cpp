@@ -3,6 +3,7 @@
 #include <conio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <string>
 
 using namespace std;
 
@@ -193,7 +194,9 @@ int main()
 		}
 		spawnNew(board);
 	}
-	
-	
+
+	std::string s = "Napoleon";
+	s.replace(5, 2, "ia");
+
 	return 0;
 }
