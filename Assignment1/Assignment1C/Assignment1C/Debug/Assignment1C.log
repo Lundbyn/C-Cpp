@@ -1,0 +1,12 @@
+﻿  Main.c
+c:\users\monke\documents\github\c-cpp\assignment1\assignment1c\assignment1c\main.c(14): warning C4473: 'scanf_s' : not enough arguments passed for format string
+  c:\users\monke\documents\github\c-cpp\assignment1\assignment1c\assignment1c\main.c(14): note: placeholders and their parameters expect 3 variadic arguments, but 1 were provided
+  c:\users\monke\documents\github\c-cpp\assignment1\assignment1c\assignment1c\main.c(14): note: the missing variadic argument 2 is required by format string '%c'
+  c:\users\monke\documents\github\c-cpp\assignment1\assignment1c\assignment1c\main.c(14): note: this argument is used by a conversion specifier
+c:\users\monke\documents\github\c-cpp\assignment1\assignment1c\assignment1c\main.c(37): warning C4473: 'scanf_s' : not enough arguments passed for format string
+  c:\users\monke\documents\github\c-cpp\assignment1\assignment1c\assignment1c\main.c(37): note: placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+  c:\users\monke\documents\github\c-cpp\assignment1\assignment1c\assignment1c\main.c(37): note: the missing variadic argument 2 is required by format string '%c'
+  c:\users\monke\documents\github\c-cpp\assignment1\assignment1c\assignment1c\main.c(37): note: this argument is used as a buffer size
+c:\users\monke\documents\github\c-cpp\assignment1\assignment1c\assignment1c\main.c(43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\monke\documents\github\c-cpp\assignment1\assignment1c\assignment1c\main.c(52): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Assignment1C.vcxproj -> C:\Users\Monke\Documents\GitHub\C-Cpp\Assignment1\Assignment1C\Debug\Assignment1C.exe
