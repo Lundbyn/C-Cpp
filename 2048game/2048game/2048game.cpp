@@ -12,7 +12,8 @@ void drawboard(int board[4][4]) {
 	for (int i = 0; i < 4; i++) {
 		cout << " -----------------\n";
 		for (int j = 0; j < 4; j++) {
-			cout << " | " << board[i][j];
+			if (board[i][j] == 0) cout << " | .";
+			else cout << " | " << board[i][j];
 			if (j == 3) cout << " |\n";
 		}
 	}
@@ -194,9 +195,6 @@ int main()
 		}
 		spawnNew(board);
 	}
-
-	std::string s = "Napoleon";
-	s.replace(5, 2, "ia");
 
 	return 0;
 }
