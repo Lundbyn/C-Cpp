@@ -12,7 +12,7 @@ void task1() {
 	cin >> pow;
 
 	//Any number to the power of 0 equals 1
-	if (pow == 0) {
+	if (pow == 0) {opera
 		sum = 1;
 	}
 	else {
